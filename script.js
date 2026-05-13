@@ -1,6 +1,3 @@
-// ==========================================
-// 1. CONFIGURAÇÃO FIREBASE (Mantenha seus dados aqui)
-// ==========================================
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
@@ -17,9 +14,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// ==========================================
-// 2. LOGICA DA IA E FILTROS
-// ==========================================
+
 const carData = [
     { id: 1, nome: "BMW 320i F30 (2019)", categoria: "Luxo" },
     { id: 2, nome: "Porsche Panamera Turbo (2017)", categoria: "Luxo" },
